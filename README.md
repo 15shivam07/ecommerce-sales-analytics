@@ -1,56 +1,150 @@
 # E-Commerce Sales Analytics
 
-## Project Overview
+End-to-end Data Analytics project using SQL, Excel and Power BI to analyze sales performance, customer behavior, regional trends and product category performance.
 
-This project analyzes e-commerce sales data to uncover insights related to customer behavior, product performance, sales trends, and business growth.
+Dataset: Superstore Sales Dataset
+
+Records Analyzed: 9,800
+
+Dashboard Pages: 3
+
+Primary Goal: Transform raw sales data into actionable business insights and interactive dashboards.
+
+## Dashboard Preview
+
+### Executive Overview
+
+![Executive Overview](Images/dashboard_page1.png)
+
+### Customer & Geographic Analysis
+
+![Customer Analysis](Images/dashboard_page2.png)
+
+### Product & Growth Analysis
+
+![Product Analysis](Images/dashboard_page3.png)
+
+## Business Problem
+
+The objective of this project was to answer key business questions:
+
+- Which regions generate the highest revenue?
+- Which product categories drive business growth?
+- How concentrated is revenue among top customers?
+- Which states contribute most to sales?
+- What seasonal patterns exist in revenue?
+- Which technology products perform best?
+- Where should management focus future growth efforts?
 
 ## Tools Used
 
-* SQL
-* Python
-* Pandas
-* Excel
-* Power BI
+- MySQL
+- Power BI
+- Microsoft Excel
+- VS Code
+- Git & GitHub
 
 ## Project Workflow
 
-1. Data Collection
-2. Data Cleaning
-3. SQL Analysis
-4. Exploratory Data Analysis (EDA)
-5. Dashboard Development
-6. Business Recommendations
+1. Dataset Collection
+2. Data Validation
+3. MySQL Data Import
+4. Data Quality Checks
+5. SQL Business Analysis
+6. Insight Generation
+7. Dashboard Design in Power BI
+8. Business Recommendations
+
+## SQL Analysis
+
+SQL was used to perform:
+
+- Customer concentration analysis
+- Revenue contribution analysis
+- Regional sales analysis
+- Category performance analysis
+- State-level revenue analysis
+- Revenue trend analysis
+
+Detailed queries are available in:
+
+SQL/business_analysis.sql
+
+## Key Findings
+
+- Total Revenue: $2.26M
+- Total Orders: 4,922
+- Total Customers: 793
+
+- Top 10% customers contribute 31.16% of total revenue.
+- Top 20% customers contribute 48.48% of total revenue.
+- Top 50% customers contribute 80.43% of total revenue.
+
+- California generated the highest revenue ($446K).
+- Top 5 states contributed 51.85% of total revenue.
+
+- Technology was the highest-performing category.
+- Revenue growth accelerated significantly during 2017–2018.
+- Q4 consistently delivered the strongest sales performance.
+
+## Dashboard Pages
+
+### Page 1 – Executive Overview
+
+- Revenue KPIs
+- Regional Revenue Analysis
+- Category Performance
+- Revenue Trends
+
+### Page 2 – Customer & Geographic Analysis
+
+- Customer Concentration Risk
+- Top Revenue States
+- Geographic Revenue Distribution
+- Strategic Insights
+
+### Page 3 – Product & Growth Analysis
+
+- Category Mix by Region
+- Technology Product Performance
+- Monthly Revenue Trends
+- Growth Insights
 
 ## Repository Structure
 
-* Dataset
-* SQL Queries
-* Python Analysis
-* Power BI Dashboard
-* Screenshots
-* Documentation
+Dataset/
+├── superstore_dataset.csv
+├── data_dictionary.md
 
-## Project Progress
+Images/
+├── dashboard_page1.png
+├── dashboard_page2.png
+├── dashboard_page3.png
 
-### Completed
+Notes/
+├── mysql_import_troubleshooting.md
 
-* Dataset imported into MySQL (9800 records)
-* Data quality checks performed
-* Customer revenue analysis completed
-* Top 10% customer revenue contribution analysis completed
+PowerBI/
+├── ecommerce_sales_analytics_dashboard.pbix
 
-### Key Findings
+SQL/
+├── business_analysis.sql
+├── findings.md
+├── methodology.md
 
-* Total Revenue: $2,261,536.78
-* Total Customers: 793
-* Top 10% Customers (80 customers) generate 31.16% of total revenue
-* Customer concentration risk: Moderate
+## Project Outcomes
 
-### Next Steps
+- Built a complete SQL-to-Power BI analytics workflow.
+- Solved MySQL import challenges during data ingestion.
+- Conducted business-focused SQL analysis.
+- Designed a 3-page interactive dashboard.
+- Converted raw transactional data into actionable insights.
 
-* Analyze Top 20% customer revenue contribution
-* Analyze Top 50% customer revenue contribution
-* Investigate top customers by region
-* Investigate top customers by product category
-* Build Power BI dashboard
+## Author
 
+Shivam Kumar Vishwakarma
+
+Aspiring Data Analyst
+
+Skills:
+SQL | Excel | Power BI
