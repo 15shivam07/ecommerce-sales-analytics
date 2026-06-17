@@ -1,0 +1,163 @@
+-- =====================================================
+BUSINESS FINDINGS
+-- =====================================================
+
+-- =====================================================
+-- 1. CUSTOMER CONCENTRATION ANALYSIS
+-- =====================================================
+
+-- =====================================================
+-- SECTION CONCLUSION
+--
+-- Top 10% Customers -> 31.16% Revenue
+-- Top 20% Customers -> 48.00% Revenue
+-- Top 50% Customers -> 80.43% Revenue
+--
+-- Business Interpretation:
+-- The company relies heavily on high-value customers.
+-- Customer retention strategies should prioritize
+-- these segments while expanding revenue contribution
+-- from lower-value customer groups.
+-- =====================================================
+
+-- =====================================================
+-- 2. REGIONAL PERFORMANCE ANALYSIS
+-- =====================================================
+
+-- SECTION CONCLUSION
+--
+-- West Region:
+-- Highest Revenue
+-- Highest Order Volume
+--
+-- East Region:
+-- Highest Average Revenue Per Order
+--
+-- South Region:
+-- Strong order value despite lower order volume
+--
+-- Central Region:
+-- Lowest average revenue per order
+--
+-- Business Interpretation:
+-- West is the strongest overall market, while East
+-- demonstrates the highest customer spending behavior.
+-- =====================================================
+
+-- =====================================================
+-- 3. CATEGORY ANALYSIS
+-- =====================================================
+
+-- SECTION CONCLUSION
+--
+-- Technology is the leading revenue category in every
+-- region.
+--
+-- East (39.30%) and South (38.08%) have the highest
+-- Technology revenue concentration.
+--
+-- This suggests that Technology products play a major
+-- role in driving regional revenue performance.
+-- =====================================================
+
+-- =====================================================
+-- 4. SUB-CATEGORY ANALYSIS
+-- =====================================================
+
+-- SECTION CONCLUSION
+--
+-- East and South exhibit the highest Average Revenue
+-- Per Order.
+--
+-- Both regions also have the highest Technology
+-- revenue share and strongest Machine sales.
+--
+-- Premium Technology products appear to be a key
+-- driver of higher order values.
+-- =====================================================
+
+-- =====================================================
+-- 5. YEARLY TREND ANALYSIS
+-- =====================================================
+
+-- SECTION CONCLUSION
+--
+-- The business experienced a temporary decline in 2016.
+--
+-- Strong growth resumed in 2017 and continued in 2018,
+-- resulting in the highest annual revenue recorded.
+--
+-- The overall trend indicates business expansion and
+-- increasing market demand.
+-- =====================================================
+
+-- =====================================================
+-- 6. MONTHLY TREND ANALYSIS
+-- =====================================================
+
+-- =====================================================
+-- SECTION CONCLUSION
+--
+-- Sales performance is highly seasonal.
+--
+-- Q4 consistently generates the strongest revenue,
+-- while February tends to be the weakest month.
+--
+-- Inventory, staffing and marketing activities
+-- should be aligned with this seasonal demand pattern.
+-- =====================================================
+
+-- =====================================================
+-- 7. GEOGRAPHIC ANALYSIS
+-- =====================================================
+
+-- SECTION CONCLUSION
+--
+-- Revenue is heavily concentrated in a small number
+-- of states.
+--
+-- California is the dominant market, while
+-- New York, Texas, Washington and Pennsylvania
+-- collectively contribute a substantial share
+-- of company revenue.
+--
+-- The Top 5 states account for 51.85% of total revenue,
+-- creating both growth opportunities and concentration risk.
+-- =====================================================
+
+-- =====================================================
+-- FINAL PROJECT CONCLUSION
+-- =====================================================
+--
+-- Key Findings:
+--
+-- 1. Top 20% of customers generate 48.00% of revenue.
+--
+-- 2. West is the highest revenue-generating region,
+--    while East records the highest Average Revenue
+--    Per Order.
+--
+-- 3. Technology is the leading category across all
+--    regions.
+--
+-- 4. Regions with stronger Technology and Machine sales
+--    tend to exhibit higher Average Revenue Per Order.
+--
+-- 5. Revenue grew significantly between 2016 and 2018.
+--
+-- 6. Sales exhibit strong seasonality, with Q4
+--    consistently outperforming other quarters.
+--
+-- 7. The Top 5 states contribute 51.85% of total revenue,
+--    indicating geographic concentration.
+--
+-- Overall Business Interpretation:
+--
+-- The business relies heavily on a relatively small
+-- group of high-value customers and high-performing
+-- geographic markets. Technology products play a major
+-- role in driving order value, while strong seasonality
+-- and geographic concentration present both growth
+-- opportunities and business risks.
+--
+-- =====================================================
